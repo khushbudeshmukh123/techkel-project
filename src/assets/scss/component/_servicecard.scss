@@ -1,0 +1,88 @@
+@import "../variable/font_size";
+@import "../variable/gap";
+@import "../variable/color";  
+
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px 28px;
+  box-shadow: 0 8px 15px rgba(72, 84, 159, 0.1);
+  max-width: 320px;
+  font-family: 'So:hne';
+  color: $text;
+  display: flex;
+  flex-direction: column;
+  gap: $gap_16;
+
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: $gap_8;
+    font-weight: 700;
+
+    color: $text;
+
+    .title-icon {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      color: #9c27b0; /* purple color */
+    }
+
+    h3 {
+         font-weight: 500;
+      font-size:$body_22;
+      color: $text;
+    }
+  }
+
+  .card-subtitle {
+    font-size: $body_16;
+   color: $text;
+    margin-bottom: 10px;
+     font-weight: 500;
+         margin-left: 19px;
+    margin-top: -21px;
+  }
+
+  .card-content {
+    h4 {
+     font-size: $body_16;
+     font-weight: 700;
+      margin-bottom: 12px;
+      color: $text;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: $gap_10;
+        font-weight: 400;
+        font-size: $body_16;
+        color: $text;
+        margin-bottom: 12px;
+
+        .check-wrapper {
+          background-color: $service; /* purple circle background */
+          color: $white-8; /* white tick */
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          font-weight: bold;
+          .check-icon {
+            font-size: $body_12;
+          }
+        }
+      }
+    }
+  }
+}

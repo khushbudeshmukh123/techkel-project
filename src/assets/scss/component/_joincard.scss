@@ -1,0 +1,37 @@
+@import "../variable/font_size";
+@import "../variable/gap";
+@import "../variable/color"; 
+
+
+.purpose-card {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  width: 320px;
+  height:226px;
+
+  .icon-wrapper {
+    margin-bottom: 12px;
+
+    .icon {
+      font-size: 28px;
+      color: $service; 
+    }
+  }
+
+  .card-title {
+    font-size: $body_22;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: $text;
+  }
+
+  .card-description {
+    font-size: $body_16;
+    color: $text;
+    line-height: 1.5;
+  }
+}
