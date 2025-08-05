@@ -1,0 +1,149 @@
+
+$body_32: 32px;
+$white-8: #FFFFFF;
+$purple: #9357CC;
+$title: #636567;
+$mail: #272424;
+
+
+.footer {
+  padding: 24px;
+  background-color: $white-8;
+  color: $title;
+  font-family: Arial, sans-serif;
+
+  &__top {
+    text-align: center;
+    margin-bottom: 16px;
+
+    h2 {
+      font-size: $body_32;
+      font-weight: 400;
+      margin-bottom: 60px;
+    text-align: left;
+    margin-left: 42px;
+
+      span {
+        color: $purple;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  gap: 130px; 
+
+    
+
+
+    .footer__col {
+      flex: 1 1 220px;
+      margin-left: 42px;
+
+      &-title {
+       // color: $title;
+        font-weight: 400;
+        margin-bottom: 8px;
+        font-size: 14px;
+        color:#636567!important;
+      }
+
+      p {
+        font-size: 14px;
+        margin-top:15px;
+        display: flex;
+        align-items: center;
+        color: $mail;
+        gap: 10px;
+        color: #272424;
+        
+
+        svg {
+          margin-right: 8px;
+          font-size: 16px;
+          color: #272424;
+        }
+      }
+    }
+
+  .footer__social{
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .footer__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #fff;
+  transition: all 0.3s ease;
+
+  svg {
+    font-size: 18px;
+    color: #bbb;
+    transition: color 0.3s ease;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &.active {
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white),
+      linear-gradient(45deg, #016CD3, #985AD3, #054A93);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    svg {
+      color: #985AD3;  // solid purple color for active icon
+      filter: brightness(1.2); // thoda bright karne ke liye
+    }
+  }
+}}}
+
+ .footer__bottom {
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+
+  p {
+    margin: 6px 0;
+  }
+
+  .footer__links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    a {
+      color: #666;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+
+
+   
