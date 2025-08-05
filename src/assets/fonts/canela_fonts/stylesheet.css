@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-BlackItalic.eot');
+    src: url('Canela-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-BlackItalic.woff2') format('woff2'),
+        url('Canela-BlackItalic.woff') format('woff'),
+        url('Canela-BlackItalic.ttf') format('truetype'),
+        url('Canela-BlackItalic.svg#Canela-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-BlackItalic.eot');
+    src: url('CanelaCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-BlackItalic.woff2') format('woff2'),
+        url('CanelaCondensed-BlackItalic.woff') format('woff'),
+        url('CanelaCondensed-BlackItalic.ttf') format('truetype'),
+        url('CanelaCondensed-BlackItalic.svg#CanelaCondensed-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Bold.eot');
+    src: url('Canela-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Bold.woff2') format('woff2'),
+        url('Canela-Bold.woff') format('woff'),
+        url('Canela-Bold.ttf') format('truetype'),
+        url('Canela-Bold.svg#Canela-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Black.eot');
+    src: url('Canela-Black.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Black.woff2') format('woff2'),
+        url('Canela-Black.woff') format('woff'),
+        url('Canela-Black.ttf') format('truetype'),
+        url('Canela-Black.svg#Canela-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-BoldItalic.eot');
+    src: url('Canela-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-BoldItalic.woff2') format('woff2'),
+        url('Canela-BoldItalic.woff') format('woff'),
+        url('Canela-BoldItalic.ttf') format('truetype'),
+        url('Canela-BoldItalic.svg#Canela-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-LightItalic.eot');
+    src: url('CanelaCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-LightItalic.woff2') format('woff2'),
+        url('CanelaCondensed-LightItalic.woff') format('woff'),
+        url('CanelaCondensed-LightItalic.ttf') format('truetype'),
+        url('CanelaCondensed-LightItalic.svg#CanelaCondensed-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Black.eot');
+    src: url('CanelaCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Black.woff2') format('woff2'),
+        url('CanelaCondensed-Black.woff') format('woff'),
+        url('CanelaCondensed-Black.ttf') format('truetype'),
+        url('CanelaCondensed-Black.svg#CanelaCondensed-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Bold.eot');
+    src: url('CanelaCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Bold.woff2') format('woff2'),
+        url('CanelaCondensed-Bold.woff') format('woff'),
+        url('CanelaCondensed-Bold.ttf') format('truetype'),
+        url('CanelaCondensed-Bold.svg#CanelaCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-MediumItalic.eot');
+    src: url('CanelaCondensed-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-MediumItalic.woff2') format('woff2'),
+        url('CanelaCondensed-MediumItalic.woff') format('woff'),
+        url('CanelaCondensed-MediumItalic.ttf') format('truetype'),
+        url('CanelaCondensed-MediumItalic.svg#CanelaCondensed-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-BoldItalic.eot');
+    src: url('CanelaCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-BoldItalic.woff2') format('woff2'),
+        url('CanelaCondensed-BoldItalic.woff') format('woff'),
+        url('CanelaCondensed-BoldItalic.ttf') format('truetype'),
+        url('CanelaCondensed-BoldItalic.svg#CanelaCondensed-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Light.eot');
+    src: url('CanelaCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Light.woff2') format('woff2'),
+        url('CanelaCondensed-Light.woff') format('woff'),
+        url('CanelaCondensed-Light.ttf') format('truetype'),
+        url('CanelaCondensed-Light.svg#CanelaCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Thin.eot');
+    src: url('CanelaCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Thin.woff2') format('woff2'),
+        url('CanelaCondensed-Thin.woff') format('woff'),
+        url('CanelaCondensed-Thin.ttf') format('truetype'),
+        url('CanelaCondensed-Thin.svg#CanelaCondensed-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-LightItalic.eot');
+    src: url('Canela-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-LightItalic.woff2') format('woff2'),
+        url('Canela-LightItalic.woff') format('woff'),
+        url('Canela-LightItalic.ttf') format('truetype'),
+        url('Canela-LightItalic.svg#Canela-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-ThinItalic.eot');
+    src: url('CanelaCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-ThinItalic.woff2') format('woff2'),
+        url('CanelaCondensed-ThinItalic.woff') format('woff'),
+        url('CanelaCondensed-ThinItalic.ttf') format('truetype'),
+        url('CanelaCondensed-ThinItalic.svg#CanelaCondensed-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Medium.eot');
+    src: url('CanelaCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Medium.woff2') format('woff2'),
+        url('CanelaCondensed-Medium.woff') format('woff'),
+        url('CanelaCondensed-Medium.ttf') format('truetype'),
+        url('CanelaCondensed-Medium.svg#CanelaCondensed-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-Regular.eot');
+    src: url('CanelaCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-Regular.woff2') format('woff2'),
+        url('CanelaCondensed-Regular.woff') format('woff'),
+        url('CanelaCondensed-Regular.ttf') format('truetype'),
+        url('CanelaCondensed-Regular.svg#CanelaCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela Condensed';
+    src: url('CanelaCondensed-RegularItalic.eot');
+    src: url('CanelaCondensed-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('CanelaCondensed-RegularItalic.woff2') format('woff2'),
+        url('CanelaCondensed-RegularItalic.woff') format('woff'),
+        url('CanelaCondensed-RegularItalic.ttf') format('truetype'),
+        url('CanelaCondensed-RegularItalic.svg#CanelaCondensed-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Medium.eot');
+    src: url('Canela-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Medium.woff2') format('woff2'),
+        url('Canela-Medium.woff') format('woff'),
+        url('Canela-Medium.ttf') format('truetype'),
+        url('Canela-Medium.svg#Canela-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-MediumItalic.eot');
+    src: url('Canela-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-MediumItalic.woff2') format('woff2'),
+        url('Canela-MediumItalic.woff') format('woff'),
+        url('Canela-MediumItalic.ttf') format('truetype'),
+        url('Canela-MediumItalic.svg#Canela-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-ThinItalic.eot');
+    src: url('Canela-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-ThinItalic.woff2') format('woff2'),
+        url('Canela-ThinItalic.woff') format('woff'),
+        url('Canela-ThinItalic.ttf') format('truetype'),
+        url('Canela-ThinItalic.svg#Canela-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Regular.eot');
+    src: url('Canela-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Regular.woff2') format('woff2'),
+        url('Canela-Regular.woff') format('woff'),
+        url('Canela-Regular.ttf') format('truetype'),
+        url('Canela-Regular.svg#Canela-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-RegularItalic.eot');
+    src: url('Canela-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-RegularItalic.woff2') format('woff2'),
+        url('Canela-RegularItalic.woff') format('woff'),
+        url('Canela-RegularItalic.ttf') format('truetype'),
+        url('Canela-RegularItalic.svg#Canela-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Light.eot');
+    src: url('Canela-Light.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Light.woff2') format('woff2'),
+        url('Canela-Light.woff') format('woff'),
+        url('Canela-Light.ttf') format('truetype'),
+        url('Canela-Light.svg#Canela-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Thin.eot');
+    src: url('Canela-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Thin.woff2') format('woff2'),
+        url('Canela-Thin.woff') format('woff'),
+        url('Canela-Thin.ttf') format('truetype'),
+        url('Canela-Thin.svg#Canela-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
