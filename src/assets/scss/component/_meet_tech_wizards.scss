@@ -1,0 +1,22 @@
+.meet_tech_wizards{
+    padding: 0 15px;
+    overflow: hidden;
+    .animated_video {
+            position: absolute;
+    bottom: -250px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+      video{
+        transform: rotateZ(-20deg);
+      width: 120%;
+    }
+    }
+   
+    .grey_box{
+        padding: 100px 0px;
+        background: #F5F8F6;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+}

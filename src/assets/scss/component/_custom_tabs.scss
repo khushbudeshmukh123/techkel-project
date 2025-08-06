@@ -1,0 +1,42 @@
+.custom_tabs_1{
+&.nav-tabs{
+    border: none;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 20px;
+    .nav-item{
+        padding: 0px 0px;
+        .nav-link{
+         background-color: transparent;
+            border: none;
+            opacity: 0.30;
+            padding: 0px ;
+           
+        &.active{
+            background-color: transparent;
+            border: none;
+            opacity: 1;
+        }
+     }
+    }
+     
+}
+}
+
+.patners_section{
+    position: relative;
+    &::after{
+        position: absolute;
+        top: 0;
+        right:0 ;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+         background-color: rgba(142, 173, 213, 0.3); /* #8EADD5 at 30% */
+  filter: blur(189.28px);
+  border-radius: 16px; /* optional rounding like in Figma */
+  content: " ";
+  z-index: 0;
+    }
+}

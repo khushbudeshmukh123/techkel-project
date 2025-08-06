@@ -1,0 +1,38 @@
+.work_that_speaks{
+    background: #F4F0EC;
+}
+.work_categorys{
+    margin: 0;
+    padding: 0;
+    display: flex;
+        flex-direction: column;
+        gap: 40px 0px;
+    li{
+        display: inline-block;
+        
+        a{
+            font-size: 22px;
+            font-weight: 500;
+            color: rgba($color: #0a0a0a, $alpha: 0.50);
+            text-decoration: none;
+            &.active{
+                color: rgba($color: #0a0a0a, $alpha: 1.0);
+            }
+        }
+    }
+}
+.product_info_text{
+    p{
+        font-size: 20px;
+        line-height: 32px;
+        color: #0a0a0a;
+    }
+}
+.work_portfolio{
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 506px;
+    max-height: 506px;
+    overflow-y: auto;
+}

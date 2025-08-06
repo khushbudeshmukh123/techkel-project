@@ -1,0 +1,36 @@
+.what_we_do{
+    padding: 120px 0px;
+    h4{
+        font-size: 56px;
+        color: #0A0A0A;
+        line-height: 75px;
+        font-family: 'Canela';
+    }
+    p{
+        font-size: 20px;
+        line-height: 32px;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    }
+    .business{
+        padding-left: 40px;
+        h5{
+            font-size: 28px;
+            line-height: auto;
+            color: #0A0A0A;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            list-style: none;
+            line-height: 32px;
+            color: rgba($color: #0A0A0A, $alpha: 0.50);
+        }
+        .btn_link{
+            font-size: 16px;
+            list-style: none;
+            line-height: 32px;
+            color: rgba($color: #985AD3, $alpha: 1.00);
+        }
+    }
+}

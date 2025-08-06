@@ -1,0 +1,36 @@
+.herobaneer_bg{
+    background: #F5F8F6;
+    border-radius: 20px;
+    overflow: hidden;
+    .home_top_part{
+        height: calc(100vh - 0px);
+        display: flex;
+        padding-top: 50px;
+        position: relative;
+        overflow: hidden;
+
+        h4{
+            font-family: 'Canela';
+            color: #0A0A0A;
+            font-weight: 600;
+            line-height: 75px;
+            position: relative;
+        }
+        p{
+            line-height: 32px;
+            color: rgba($color: #0A0A0A, $alpha: 0.50);
+            position: relative;
+        }
+        .animated_video{
+            position: absolute;
+            bottom: -250px;
+            left: 0;
+            width: 100%;
+            z-index: 0;
+            video{
+                transform: rotateZ(-20deg);
+                width: 120%;
+            }
+        }
+    }
+}
